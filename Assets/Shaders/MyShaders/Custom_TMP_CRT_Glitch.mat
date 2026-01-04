@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_TMP_CRT_Glitch
+  m_Shader: {fileID: 4800000, guid: c0037aaea65bf2a4d9d39af56046b2d3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 28684132378477856, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BurstAmount: 0.8
+    - _BurstDuration: 0.25
+    - _BurstFreq: 0.45
+    - _BurstFrequency: 3
+    - _BurstThreshold: 0.75
+    - _ChannelOffset: 0.2
+    - _ColorGlitchAmount: 1
+    - _FaceSoftness: 0.015
+    - _FaceThreshold: 0.5
+    - _FlickerAmount: 0.12
+    - _FlickerIntensity: 0.9
+    - _FontScale: 1
+    - _GlitchActive: 1
+    - _GlitchAmount: 0.015
+    - _GlitchFrequency: 2
+    - _GlitchIntensity: 0.05
+    - _GlitchSpeed: 0.3
+    - _GlobalBurstAmount: 0.25
+    - _GlobalBurstFreq: 0.6
+    - _NoiseAmount: 0.01
+    - _NoiseScale: 2
+    - _NoiseSeed: 12.3
+    - _OutlineThickness: 0.06
+    - _RGBSplit: 0.05
+    - _RGBSplitAmount: 0.02
+    - _RGBSplitMax: 0.06
+    - _Saturation: 1
+    - _ScaleAmount: 0.4
+    - _ScaleXAmount: 2
+    - _ScanlineCount: 120
+    - _ScanlineIntensity: 0.8
+    - _ScreenNoiseScale: 1.8
+    - _SliceChance: 0.6
+    - _SliceCount: 8
+    - _SliceDensity: 120
+    - _SliceFrequency: 6.4
+    - _SliceIntensity: 10
+    - _SliceJitter: 1.04
+    - _SliceJitterSpeed: 6
+    - _SliceMaxOffset: 0.12
+    - _SliceScaleAmount: 0.6
+    - _SliceStrength: 0.85
+    - _SliceTintIntensity: 0.9
+    - _Smoothing: 0.08
+    - _Speed: 6.1
+    m_Colors:
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PalA: {r: 1, g: 0, b: 0, a: 1}
+    - _PalB: {r: 0.02, g: 1, b: 0.02, a: 1}
+    - _PalC: {r: 0.02, g: 0.02, b: 1, a: 1}
+    - _PalD: {r: 1, g: 0.02, b: 1, a: 1}
+    - _PalE: {r: 1, g: 1, b: 0.02, a: 1}
+    - _SliceTintColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
