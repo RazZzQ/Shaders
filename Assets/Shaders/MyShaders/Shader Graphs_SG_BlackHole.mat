@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AccretionNoiseTex:
-        m_Texture: {fileID: 2800000, guid: 4b3df0dec0a09c54699438244686269e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 99971cd7c44a7934e9adc9ce5c27572a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BackgroundTexture:
@@ -59,17 +59,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AccretionIntensity: 10
+    - _AccretionIntensity: 0.1
     - _AccretionNoiseScale: 10.1
     - _AccretionRotationSpeed: 0.1
     - _AccretionThickness: 1
     - _BlackHoleRadius: 0
-    - _CoreGlowIntensity: 1
+    - _CoreGlowIntensity: 10
     - _DistortionFalloff: 10
     - _DistortionStrength: 1
-    - _EmissionIntensity: 0
-    - _EventHorizonWidth: 0
-    - _OverallBrightness: 1.23
+    - _EmissionIntensity: 10
+    - _EventHorizonWidth: 0.5
+    - _OverallBrightness: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:

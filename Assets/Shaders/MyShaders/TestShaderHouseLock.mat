@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolveNoise:
-        m_Texture: {fileID: 2800000, guid: b4f898dfbebcac341b74d96f60569671, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5772035c8194f054b9c4d55cc393ef6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,14 +50,14 @@ Material:
     - _BlurAmount: 1
     - _BlurRadius: 15
     - _DissolveAmount: 1
-    - _EdgeEmissionIntensity: 200
-    - _EdgeWidth: 0.03
+    - _EdgeEmissionIntensity: 100
+    - _EdgeWidth: 0.003
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smothness: 1
     m_Colors:
-    - _EdgeColor: {r: 1, g: 0.009137345, b: 0, a: 1}
+    - _EdgeColor: {r: 0, g: 1, b: 0.5415592, a: 1}
     - _Emission: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseOffset: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}

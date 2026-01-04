@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 49b2f0d781c93fd4290b5890618f2f41, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5a80c2092af6fa746b142a756dfaba32, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex_1:
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseText:
-        m_Texture: {fileID: 2800000, guid: 308fe98de92a4c747885919e4e8c8d6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5772035c8194f054b9c4d55cc393ef6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -66,7 +66,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ACT: 0.5
+    - _ACT: 0.984
     - _AlphaCutoff: 0
     - _Ambient: 0.3
     - _BevelAmount: 0
@@ -79,18 +79,18 @@ Material:
     - _BlockThreshold: 0
     - _Diffuse: 0.3
     - _DisplacementAmount: 0.02
-    - _FaceSoftness: 0.068
+    - _FaceSoftness: 0
     - _FaceThreshold: 0.5
     - _FontScale: 1
-    - _GlitchIntensity: 2.5
-    - _GlitchThreshold: 0
+    - _GlitchIntensity: 10
+    - _GlitchThreshold: 1
     - _GradientScale: 10
-    - _JitterAmount: 0.07
+    - _JitterAmount: 0.459
     - _JitterFrecuency: 15.3
     - _LightAngle: 0.03
     - _MaskIntensity: 0.588
-    - _MaxSliceOffset: 1.5
-    - _NoiseScale: 2.5
+    - _MaxSliceOffset: 5
+    - _NoiseScale: 0
     - _NoiseSpeed: 1
     - _OriginalAlpha: 1
     - _OutlineMode: 0
@@ -105,8 +105,8 @@ Material:
     - _ScanlineFrequency: 660
     - _ScanlineIntensity: 1
     - _ScanlineSpeed: 0.313
-    - _Seed: 9
-    - _SliceCount: 200
+    - _Seed: 13
+    - _SliceCount: 1
     - _SliceFrecuency: 10
     - _SliceSeed: 0.966
     - _SpecularPower: 0
@@ -114,7 +114,7 @@ Material:
     - _UnderlayDilate: 0
     - _UnderlaySoftness: 0
     m_Colors:
-    - _ChromaticOffset: {r: 15.09, g: 0, b: 0, a: 0}
+    - _ChromaticOffset: {r: 0, g: 0, b: 0, a: 0}
     - _FaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _FaceUVSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _IsoPerimeter: {r: 0, g: 0, b: 0, a: 0}
